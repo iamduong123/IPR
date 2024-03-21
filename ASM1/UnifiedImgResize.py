@@ -31,7 +31,7 @@ def image_resize(desired_height, desired_width, path_from_user):
 
 # Initialize the GUI with customtkinter
 customtkinter.set_appearance_mode("dark")  # Set dark mode
-customtkinter.set_default_color_theme("dark-blue")  # Set default button color
+customtkinter.set_default_color_theme("blue")  # Set default button color
 
 app = customtkinter.CTk()  # Create the main window
 app.geometry("860x480")  # Set window size
